@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      esbuild-scalajs:
+        specifier: ^0.0.4
+        version: 0.0.4
       qrcode:
         specifier: ^1.5.4
         version: 1.5.4
@@ -194,6 +197,9 @@ packages:
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
 
+  esbuild-scalajs@0.0.4:
+    resolution: {integrity: sha512-3XTZbM5sBnlar1xcpPefWn4TfoeoR86MSTt0da/DjZ4H4DSOJi4rMNp9/T0/BGC6WHAST/HQy8VQ1C4za0dhGg==}
+
   esbuild@0.24.0:
     resolution: {integrity: sha512-FuLPevChGDshgSicjisSooU0cemp/sGXR841D5LHMB7mTVOmsEHcAxaH3irL53+8YDIeVNQEySh4DaYU/iuPqQ==}
     engines: {node: '>=18'}
@@ -375,6 +381,8 @@ snapshots:
   dijkstrajs@1.0.3: {}
 
   emoji-regex@8.0.0: {}
+
+  esbuild-scalajs@0.0.4: {}
 
   esbuild@0.24.0:
     optionalDependencies:

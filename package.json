@@ -8,6 +8,7 @@
 		"esbuild": "0.24.0"
 	},
 	"dependencies": {
+		"esbuild-scalajs": "^0.0.4",
 		"qrcode": "^1.5.4"
 	}
 }

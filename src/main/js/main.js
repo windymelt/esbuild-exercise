@@ -1,4 +1,3 @@
-import * as qr from 'qrcode';
 import { fib, fact, map, filter } from 'scala:scalamain';
 import { hello } from 'scala:anotherscalamain';
 

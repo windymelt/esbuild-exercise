@@ -1,14 +1,10 @@
 {
 	"type": "module",
 	"scripts": {
-		"main": "node main.js",
 		"build": "node esbuild.mjs"
 	},
 	"devDependencies": {
-		"esbuild": "0.24.0"
-	},
-	"dependencies": {
-		"esbuild-scalajs": "^0.0.4",
-		"qrcode": "^1.5.4"
+		"esbuild": "0.24.0",
+		"esbuild-scalajs": "^0.0.5"
 	}
 }

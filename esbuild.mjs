@@ -8,7 +8,7 @@ const opts = {
 }
 
 await esbuild.build({
-  entryPoints: ['main.js'],
+  entryPoints: ['src/main/js/main.js'],
   bundle: true,
   platform: 'node',
   outfile: 'dist.cjs',
